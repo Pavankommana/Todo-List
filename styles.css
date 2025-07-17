@@ -1,0 +1,88 @@
+ body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.container {
+  background-color: white;
+  padding: 30px;
+  max-width: 700px;
+  width: 90%;
+  margin: 40px auto;
+  border-radius: 12px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+
+.todo-input-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr auto;
+  gap: 10px;
+  margin-bottom: 20px;
+  width: 100%;
+  max-width: 600px;
+}
+
+input[type="text"],
+input[type="date"] {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  outline: none;
+}
+
+button {
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.js-add-button {
+  background-color: #28a745;
+  color: white;
+  width: 75px;
+}
+
+.js-add-button:hover {
+  background-color: #218838;
+}
+
+.todo-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr auto;
+  gap: 10px;
+  width: 100%;
+  max-width: 600px;
+}
+
+.name,
+.dueDate {
+  background-color: white;
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #ddd;
+}
+
+.del-btn {
+  background-color: #dc3545;
+  color: white;
+  padding: 10px;
+}
+
+.del-btn:hover {
+  background-color: #c82333;
+}
